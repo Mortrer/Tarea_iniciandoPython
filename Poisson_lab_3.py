@@ -36,7 +36,7 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-        print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100),"%")
         os.system("Pause")
         os.system("cls")
     elif Option is 3:
@@ -50,7 +50,7 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-        print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100),"%")
         os.system("Pause")
         os.system("cls")
     elif Option is 4:
@@ -66,7 +66,7 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-        print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100),"%")
         os.system("Pause")
         os.system("cls")
     elif Option is 5:
@@ -82,6 +82,6 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-        print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100),"%")
         os.system("Pause")
         os.system("cls")
