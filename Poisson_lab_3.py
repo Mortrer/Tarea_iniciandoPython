@@ -36,7 +36,7 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-            print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100))
         os.system("Pause")
         os.system("cls")
     elif Option is 3:
@@ -50,7 +50,7 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-            print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100))
         os.system("Pause")
         os.system("cls")
     elif Option is 4:
@@ -59,14 +59,14 @@ while pop == True:
         Lambda_ = int(input())
         print ("Ingrese K = X: ")
         Equis = int(input())
-        min = int(input("ingrese valor maximo: "))
+        min = int(input("ingrese valor minimo: "))
         for i in range (min, Equis):
             print("Valor de X: ", i)
             F = (2.7182**-Lambda_)*(Lambda_**i)
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-            print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100))
         os.system("Pause")
         os.system("cls")
     elif Option is 5:
@@ -82,6 +82,6 @@ while pop == True:
             F2 = (math.factorial(i))
             Fr = (F/F2)
             Rf = Fr+Fr
-            print ("Resultado Porcentual:", (Rf*100))
+        print ("Resultado Porcentual:", (Rf*100))
         os.system("Pause")
         os.system("cls")
