@@ -19,9 +19,7 @@ while pop == True:
         print ("Ingrese K = X: ")
         Equis = int(input())
         F = (2.7182**-Lambda_)*(Lambda_**Equis)
-        print ("Primera parte: ", F)
         F2 = (math.factorial(Equis))
-        print ("Segunda parte: ", F2)
         Fr = (F/F2)*100
         print ("Resultado porcentual: ", Fr, "%")
         os.system("Pause")
@@ -45,8 +43,6 @@ while pop == True:
         print ("distribucion: Mayor a Lambda ")
         print ("Ingrese Lambda: ")
         Lambda_ = int(input())
-        print ("Ingrese K = X: ")
-        Equis = int(input())
         max = int(input("ingrese valor maximo: "))
         for i in range (Lambda_+1, max+1):
             print("Valor de X: ", i)
@@ -63,8 +59,8 @@ while pop == True:
         Lambda_ = int(input())
         print ("Ingrese K = X: ")
         Equis = int(input())
-        max = int(input("ingrese valor maximo: "))
-        for i in range (0+1, Equis):
+        min = int(input("ingrese valor maximo: "))
+        for i in range (min, Equis):
             print("Valor de X: ", i)
             F = (2.7182**-Lambda_)*(Lambda_**i)
             F2 = (math.factorial(i))
